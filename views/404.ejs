@@ -1,0 +1,58 @@
+<style>
+    body {
+        background: var(--blk3);
+    }
+    .err-404 {
+        padding: 2rem;
+        background-color: var(--blk1);
+        box-shadow: 0px 0px 5px var(--light);
+        transition: all .3s linear;
+        cursor: pointer;
+    }
+    .err-404:hover {
+        scale: 1.05;
+    }
+    .err-404 h1, .err-404 p{
+        letter-spacing: 1px;
+    }
+    .emoji {
+        font-size: 5rem;
+        text-shadow: 0px 0px 25px var(--primary);
+    }
+</style>
+<div class="flex-center flex-column br-s err-404" title="Go Home">
+    <h1 class="clr-danger font-sl">
+        MISSING!
+    </h1>
+    <p class="clr-light">
+        We lost this URL
+    </p>
+    <p class="clr-primary">
+        <%- url %>
+    </p>
+
+    <div class="emoji mt-m mb-m">☹️</div>
+    
+    <p class="clr-light text-center font-ss sfont-70s0">
+        Please inform us if you
+        <br>
+        find this URL somewhere!
+        <br><br>Thank you so much...
+    </p>
+</div>
+
+<script>
+    document.querySelector('.err-404')
+    .addEventListener('click', e => {
+        window.location.href = '/'
+    })
+
+    setInterval(() => {
+        var e = document.querySelector('.emoji')
+        e.innerHTML = '☹️'
+
+        setTimeout(() => {
+            e.innerHTML = '🥺'
+        }, 1500);
+    }, 1000);
+</script>

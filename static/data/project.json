@@ -1,0 +1,79 @@
+[
+    {
+        "id": 111,
+        "icon": "<i class=\"fa-solid fa-s\"></i>",
+        "shorttitle": "Shre.IN",
+        "title": "Shre.IN (Share Text and Files)",
+        "liveLink": "https://shre.in/",
+        "period": "December 2022",
+        "desc": "Users can instantly share documents, images, videos, and othermaterials with family, friends, and colleagues.<br>Shre.in is an innovative online platform that allows users to easilyshare text and files with others. With just a few clicks, users caninstantly share documents, images, videos, and other materials withfamily, friends, and colleagues. Shre.in provides an intuitive, user-friendly interface that helps users quickly and easily upload theircontent and share it with others.",
+        "tech": [
+            "Frontend (ReactJS)",
+            "Backend (NodeJS)",
+            "Database (MySQL)",
+            "Socket.IO used for realtime communication<br>with client and server"
+        ],
+        "screenshots": [
+            "shre.in/01.png",
+            "shre.in/02.png",
+            "shre.in/03.png",
+            "shre.in/04.png",
+            "shre.in/05.png",
+            "shre.in/06.png",
+            "shre.in/join room.png",
+            "shre.in/upload.png",
+            "shre.in/contact.png"
+        ]
+    },
+    {
+        "id": 112,
+        "icon": "<i class=\"fa-solid fa-p\"></i>",
+        "shorttitle": "PrintPass",
+        "title": "PrintPass (Printing Bank Passbook)",
+        "liveLink": "https://printpass.co.in/",
+        "period": "November 2022",
+        "desc": "User can print SBI first page of booklet passbook<br><span class=\"bg-danger p-s br-s mt-s mb-s\" style=\"display: block;\">I made this website just to showcase my skills. This is not a production website.</span>",
+        "tech": [
+            "Frontend (HTML, CSS, JavaScript)",
+            "Backend (NodeJS)",
+            "Database (MySQL)",
+            "User Management System with Authentication and Authrization"
+        ],
+        "screenshots": [
+            "printpass/home 1.png",
+            "printpass/home 2.png",
+            "printpass/home 3.png",
+            "printpass/admin dashboard.png",
+            "printpass/all users.png",
+            "printpass/deleted users.png",
+            "printpass/distributed token.png",
+            "printpass/distribute token.png",
+            "printpass/token receipt.png",
+            "printpass/revoke token.png",
+            "printpass/user profile.png",
+            "printpass/passbook generator.png",
+            "printpass/token history.png",
+            "printpass/contact.png"
+        ]
+    },
+    {
+        "id": 113,
+        "icon": "<i class=\"fa-solid fa-s\"></i>",
+        "shorttitle": "Shop List",
+        "title": "Shopping Buds (Make Shopping List)",
+        "liveLink": "https://abhimehrr.github.io/shop/",
+        "period": "October 2022",
+        "desc": "\"Shopping Buds\" is an online platform that makes shopping easierand more organized. With this website, users can create lists for theirshopping needs and manage them with ease. Users can add items totheir lists, delete existing lists, and mark items as done or undone.This makes it the perfect solution for creating and keeping track ofwishlists for shopping.",
+        "tech": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Local Storage (Storing Data)"
+        ],
+        "screenshots": [
+            "shop/home 1.png",
+            "shop/home 2.png",
+            "shop/instruction.png"
+        ]
+    }
+]

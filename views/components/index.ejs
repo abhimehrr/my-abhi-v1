@@ -1,0 +1,31 @@
+<main id="main" class="br-m p-s" style="padding-bottom: 2rem !important;">
+    <%- include('../partials/bio-info.ejs') %>
+
+    <div class="hr"></div>
+
+    <div class="flex align-center flex-column mr-s ml-s">
+        <nav class="flex-center mb-m">
+            <ul class="navbar flex-center">
+                <li><a class="active-link" href="/">About</a></li>
+                <li><a href="/project">Project</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="card-wrapper flex flex-wrap"></div>
+    </div>
+
+    
+    <!-- Details Wrapper -->
+    <div class="right-sec">
+        <div class="main-menu-wrapper flex-center">
+            <div class="menu br-s p-l">
+                <div class="close flex-center" onclick="closeModal()">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
+                <div class="content-box"></div>
+            </div>
+        </div>
+    </div>
+</main>

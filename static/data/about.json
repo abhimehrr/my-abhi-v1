@@ -1,0 +1,130 @@
+[
+    {
+        "id": 211,
+        "title": "Development",
+        "icon": "<i class=\"fa-solid fa-code\"></i>",
+        "about": [
+            {
+                "head": "MERN Stack",
+                "body": [
+                    "MongoDB",
+                    "ExpressJS",
+                    "ReactJS",
+                    "NodeJS"
+                ]
+            },
+            {
+                "head": "&",
+                "body": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "Bootstrap",
+                    "Wordpress",
+                    "WooCommerce",
+                    "MySQL"
+                ]
+            },
+            {
+                "head": "Version Control",
+                "body": [
+                    "Git",
+                    "Github"
+                ]
+            },
+            {
+                "head": "AI (Artificial Intelligence)",
+                "body": [
+                    "ChatGPT",
+                    "Midjourney",
+                    "Dall-E",
+                    "and some others"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 212,
+        "title": "Designing",
+        "icon": "<i class=\"fa-solid fa-wand-magic-sparkles\"></i>",
+        "about": [
+            {
+                "head": "Graphics",
+                "body": [
+                    "Adobe Illustrator",
+                    "Adobe Photoshop"
+                ]
+            },
+            {
+                "head": "UI/UX",
+                "body": [
+                    "Figma"
+                ]
+            },
+            {
+                "head": "Office",
+                "body": [
+                    "Word",
+                    "Excel",
+                    "Powerpoint"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 213,
+        "title": "Education",
+        "icon": "<i class=\"fa-solid fa-school\"></i>",
+        "about": [
+            {
+                "head": "Bachelor of Computer Applications",
+                "body": [
+                    "R. M. College, Saharsa",
+                    "2019 - 2022"
+                ]
+            },
+            {
+                "head": "UI/UX",
+                "body": [
+                    "YouTube and others",
+                    "Everyday"
+                ]
+            },
+            {
+                "head": "Secondary Board",
+                "body": [
+                    "BSEB, Patna",
+                    "2016 - 2018"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 214,
+        "title": "Hobbies",
+        "icon": "<i class=\"fa-solid fa-icons\"></i>",
+        "about": [
+            {
+                "head": "I love to do this...",
+                "body": [
+                    "Coding",
+                    "Driving",
+                    "Listening to the Music"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 210,
+        "title": "About Me",
+        "icon": "<i class=\"fa-solid fa-child-reaching\"></i>",
+        "about": [
+            {
+                "head": "I am just...",
+                "body": [
+                    "extremely proficient in Front-End Development using HTML5, Cascade Style Sheets (CSS3), Bootstrap, Javascript, React.Js And apartfrom Front-End, I have good knowledge in Back-End using NodeJS, MongoDB & MySQL as well as in designing using Adobe Photoshop, Adobe Illustrator, and continuously engage in trying to extend my aboutwith new technology."
+                ]
+            }
+        ]
+    }
+]

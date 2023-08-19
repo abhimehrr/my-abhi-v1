@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "<i class=\"fa-brands fa-instagram\"></i>",
+        "title": "Instagram",
+        "link": "https://instagram.com/AbhiMehrr"
+    },
+    {
+        "icon": "<i class=\"fa-solid fa-at\"></i>",
+        "title": "Gmail",
+        "link": "mailto:hloo.abhi@gmail.com"
+    },
+    {
+        "icon": "<i class=\"fa-brands fa-github\"></i>",
+        "title": "Github",
+        "link": "https://github.com/AbhiMehrr"
+    }
+]

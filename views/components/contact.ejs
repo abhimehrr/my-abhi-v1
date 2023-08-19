@@ -1,0 +1,53 @@
+<main id="main" class="br-m p-s" style="padding-bottom: 2rem !important;">
+    <%- include('../partials/bio-info.ejs') %>
+
+    <div class="hr"></div>
+
+    <div class="flex align-center flex-column mr-s ml-s">
+        <nav class="flex-center mb-m">
+            <ul class="navbar flex-center">
+                <li><a href="/">About</a></li>
+                <li><a href="/project">Project</a></li>
+                <li><a class="active-link" href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="card-wrapper flex flex-wrap">
+            <div class="card flex-center flex-column" onclick="openModal()">
+                <div class="item-icon flex-center mb-s">
+                    <i class="fa-solid fa-comments"></i>
+                </div>
+                <div class="card-title">
+                    <h3 class="font-600 font-s">DM</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="right-sec">
+        <div class="main-menu-wrapper flex-center">
+            <div class="menu br-s p-l">
+                <div class="close flex-center" onclick="closeModal()">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <h3 class="font-m">Direct Message</h3>
+                <div class="content-box chatbot">
+                    <div class="ml-l mt-s mr-s" id="chatbot-msg-box">
+                        <div class="chat-item">
+                            How can I help you?
+                        </div>
+                        <div class="chat-item">
+                            May I know your name please?
+                        </div>
+                    </div>
+                </div>
+                <div class="msg-input-box flex align-center space-between">
+                    <textarea id="msgTextArea" placeholder="Message..."></textarea>
+                    <button id="sendMsg">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
